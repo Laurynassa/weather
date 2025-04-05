@@ -308,44 +308,6 @@ const WeatherApp = () => {
                               {weatherData.windspeed} km/h
                             </div>
                           </div>
-                          <div
-                            style={{
-                              display: "flex",
-                              alignItems: "flex-start",
-                              alignSelf: "stretch",
-                            }}
-                          >
-                            <div
-                              style={{
-                                display: "flex",
-                                width: "125px",
-                                padding: "12px 16px",
-                                alignItems: "center",
-                                gap: "10px",
-                                borderTop: "1px solid #ECECEC",
-                                borderBottom: "1px solid #ECECEC",
-                                borderLeft: "1px solid #ECECEC",
-                              }}
-                            >
-                              Wind gust
-                            </div>
-                            <div
-                              style={{
-                                display: "flex",
-                                padding: "12px 16px",
-                                alignItems: "center",
-                                gap: "10px",
-                                flex: "1 0 0",
-                                border: "1px solid #ECECEC",
-                              }}
-                            >
-                              {weatherData.windGust} m/s
-                            </div>
-                          </div>
-                          <Typography variant="subtitle3">
-                            Temperature: {weatherData.temperature}°C
-                          </Typography>
-                          {/* ... kita orų informacija, kurią norite čia rodyti ... */}
                         </div>
                       )}
                     {forecast.length !== 0 && (
